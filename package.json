@@ -1,0 +1,21 @@
+{
+  "name": "linkedinjobscraper",
+  "version": "1.0.0",
+  "description": "This this is server side of the linkedin job scraper which scrape the jobs and update to the database",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Rawat",
+  "license": "ISC",
+  "dependencies": {
+    "airtable": "^0.12.1",
+    "dotenv": "^16.3.1",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.1"
+  }
+}
